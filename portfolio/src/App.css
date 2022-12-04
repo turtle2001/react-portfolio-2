@@ -1,0 +1,160 @@
+/* * {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+:root {
+    --text-color: white;
+    --main-height: 700px;
+}
+
+body {
+    background-color: gray;
+}
+
+/*header design*/
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #2a607c;
+  color: var(--text-color);
+}
+
+/*header inline*/
+header h1 {
+  display: inline-block;
+}
+
+/*nav to the right*/
+header nav {
+  float: right;
+  margin: 15px;
+}
+
+/*nav in line*/
+header nav li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+/*plain text for nav links*/
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/*main container*/
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+/*aboutme container*/
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: right;
+  height: var(--main-height);
+  width: 25%;
+  border: solid;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+/*properties for about me header*/
+.aboutme h2 {
+  display: flex;
+  height: 60px;
+  width: 95%;
+  margin: 5px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: var(--text-color);
+}
+
+/*properties for aboutme text*/
+.aboutme p {
+  display: flex;
+  margin: 10px;
+  overflow-wrap: break-word;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+/*container for all projects*/
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: var(--main-height);
+  width: 70%;
+  border-radius: 5px;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+
+/*container for big project*/
+.bigProject {
+  display: flex;
+  height: calc(var(--main-height)/2);
+  width: 100%;
+}
+
+/*containers for other projects*/
+.regProject {
+  display: flex;
+  height: calc(var(--main-height)/4);
+  width: calc(var(--main-height)/4);
+  margin: 10px;
+}
+
+/*makes sure titles are on upper right of image*/
+.link {
+  position: absolute;
+}
+
+/*makes sure big image is as wide as container*/
+.bigProject img {
+  height: calc(var(--main-height)/2);
+  width: 100%;
+}
+
+/*size for smaller images*/
+.regProject img {
+  height: calc(var(--main-height)/4);
+  width: calc(var(--main-height)/4);
+}
+
+/*container for contact info*/
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-family: var(--text-color);
+}
+
+footer {
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: #2a607c;
+  color: var(--text-color);
+}
+
+/*used to adjust content according to screen size*/
+@media screen and (max-width: 980px) {
+  main {
+      flex-direction: column;
+  }
+
+  .aboutme {
+      width: 95%;
+  }
+}
