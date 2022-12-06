@@ -15,7 +15,10 @@ const styles = {
 function Footer() {
   return (
     <nav style={styles.navbar}>
-      <a href='https://www.linkedin.com' style={styles.link}>
+      <a
+        href='https://www.linkedin.com/in/alexis-zaragoza-5baa51242/'
+        style={styles.link}
+      >
         LinkedIn
       </a>
       <a href='https://github.com/turtle2001' style={styles.link}>
