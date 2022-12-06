@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+
 import Me from './components/Me';
 import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('about');
