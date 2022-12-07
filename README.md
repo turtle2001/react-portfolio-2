@@ -5,6 +5,7 @@
 The goal of this project was to build a new portfolio page using React. Each of the tabs at the top of the page takes the user a page with the desired information.
 
 [Deployed App](https://turtle2001.github.io/react-portfolio/)
+![Site](./src/images/webpage.png)
 
 ## Technology Used
 

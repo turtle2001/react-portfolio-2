@@ -1,6 +1,11 @@
 import React from 'react';
 import Universe from '../images/Universe.jpg';
-import Card from '../images/placeholder.png';
+import Pw from '../images/pw.png';
+import Kronos from '../images/kronos.png';
+import Weather from '../images/weather.png';
+import Workday from '../images/workday-scheduler.png';
+import Note from '../images/note.png';
+import Blog from '../images/blog-post.png';
 
 const styles = {
   page: {
@@ -24,7 +29,7 @@ function Portfolio() {
   return (
     <section style={styles.page}>
       <div>
-        <img src={Card} alt='alt' style={styles.image} />
+        <img src={Pw} alt='alt' style={styles.image} />
         <p style={styles.text}>Password Generator</p>
         <a href='https://github.com/turtle2001/password-generator'>
           <p style={styles.text}>GitHub</p>
@@ -35,7 +40,7 @@ function Portfolio() {
       </div>
 
       <div>
-        <img src={Card} alt='alt' style={styles.image} />
+        <img src={Workday} alt='alt' style={styles.image} />
         <p style={styles.text}>Workday Scheduler</p>
         <a href='https://github.com/turtle2001/workday-scheduler'>
           <p style={styles.text}>GitHub</p>
@@ -46,7 +51,7 @@ function Portfolio() {
       </div>
 
       <div>
-        <img src={Card} alt='alt' style={styles.image} />
+        <img src={Kronos} alt='alt' style={styles.image} />
         <p style={styles.text}>Kronos-StatIM</p>
         <a href='https://github.com/turtle2001/Kronos-StatIM'>
           <p style={styles.text}>GitHub</p>
@@ -57,7 +62,7 @@ function Portfolio() {
       </div>
 
       <div>
-        <img src={Card} alt='alt' style={styles.image} />
+        <img src={Note} alt='alt' style={styles.image} />
         <p style={styles.text}>Note Taker</p>
         <a href='https://github.com/turtle2001/note-taker'>
           <p style={styles.text}>GitHub</p>
@@ -68,7 +73,7 @@ function Portfolio() {
       </div>
 
       <div>
-        <img src={Card} alt='alt' style={styles.image} />
+        <img src={Blog} alt='alt' style={styles.image} />
         <p style={styles.text}>Cameras Eat First</p>
         <a href='https://github.com/SkyWalkerMM26/Food-Blog-Post'>
           <p style={styles.text}>GitHub</p>
@@ -79,7 +84,7 @@ function Portfolio() {
       </div>
 
       <div>
-        <img src={Card} alt='alt' style={styles.image} />
+        <img src={Weather} alt='alt' style={styles.image} />
         <p style={styles.text}>Weather Dashboard</p>
         <a href='https://github.com/turtle2001/weather-dashboard'>
           <p style={styles.text}>GitHub</p>
