@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-2/static/css/main.287aea42.css",
+    "main.js": "/react-portfolio-2/static/js/main.78b96a09.js",
+    "static/media/kronos.png": "/react-portfolio-2/static/media/kronos.2956c82aa10d62857238.png",
+    "static/media/me.jpg": "/react-portfolio-2/static/media/me.e361dd0011b28e0a34db.jpg",
+    "static/media/Universe.jpg": "/react-portfolio-2/static/media/Universe.e96c66cbedc8fe13e123.jpg",
+    "static/media/blog-post.png": "/react-portfolio-2/static/media/blog-post.e90db83b736e33ba9c02.png",
+    "static/media/workday-scheduler.png": "/react-portfolio-2/static/media/workday-scheduler.15a5f861689aafb3e3ac.png",
+    "static/media/pw.png": "/react-portfolio-2/static/media/pw.905295f3b0d02bb8d604.png",
+    "static/media/weather.png": "/react-portfolio-2/static/media/weather.9d001738b1f8118bb1d8.png",
+    "static/media/resume.pdf": "/react-portfolio-2/static/media/resume.200ad6bc08ec314ebb66.pdf",
+    "static/media/note.png": "/react-portfolio-2/static/media/note.60d5bffcedb2e906d414.png",
+    "index.html": "/react-portfolio-2/index.html",
+    "main.287aea42.css.map": "/react-portfolio-2/static/css/main.287aea42.css.map",
+    "main.78b96a09.js.map": "/react-portfolio-2/static/js/main.78b96a09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.287aea42.css",
+    "static/js/main.78b96a09.js"
+  ]
+}
